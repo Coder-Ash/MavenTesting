@@ -15,6 +15,11 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <junit.version>5.3.2</junit.version>
+        <!-- this is to skip tests but it is best to do it from the command line, "-DskipTests" or "-DskipITs" as options-->
+        <!--<skipTests>true</skipTests>--> 
+            <!--or-->
+        <!--<skipITs>true</skipITs>--> 
+        <!-- this is to skip tests but it is best to do it from the command line, "-DskipTests" or "-DskipITs" as options-->
     </properties>
 
     <dependencies>
