@@ -17,8 +17,7 @@
     </properties>
 
 
-    <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+    <build>    
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
@@ -100,6 +99,5 @@
           <version>2.8.2</version>
         </plugin>
       </plugins>
-    </pluginManagement>
   </build>
 </project>
