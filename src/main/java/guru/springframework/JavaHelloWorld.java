@@ -5,8 +5,13 @@ package guru.springframework;
  */
 public class JavaHelloWorld {
 
-    public String getHello(){
+    public String getHello() {
+
+        if (false)
+            System.out.println("I am a bug");
+
         return "Hello World";
+
     }
 
 }
